@@ -1,0 +1,226 @@
+:root {
+  --color-1: #17153b;
+  --color-2: #2e236c;
+  --color-3: #433d8b;
+  --color-4: #c8acd6;
+  --color-5: #cebad8;
+  --font: "Montserrat", sans-serif;
+}
+body {
+  background: url(/img/codigo.jpeg);
+  background-position: top;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+.head {
+  height: 100vh;
+  display: flex;
+  padding-left: 20px;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.title-head {
+  font-size: 100px;
+  font-weight: 500;
+  color: white;
+  font-family: var(--font);
+}
+
+.title-name-head {
+  font-size: 90px;
+  font-weight: 400;
+  color: white;
+  font-family: var(--font);
+}
+
+.about-me {
+  height: 100vh;
+  background-color: var(--color-1);
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.title-about-me,
+.title-skills,
+.title-studies,
+.title-proyects {
+  text-align: center;
+  font-size: 60px;
+  font-family: var(--font);
+}
+.body-about-me {
+  padding: 20px;
+  display: flex;
+  gap: 10%;
+  flex-direction: column;
+  align-items: center;
+}
+.container-about-me {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
+  padding: 20px;
+}
+.img-about-me {
+  width: 15%;
+  border-radius: 10px;
+}
+.data-about-me {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.data-title {
+  font-size: 24px;
+  font-family: var(--font);
+}
+.data-body {
+  font-size: 16px;
+  font-family: var(--font);
+}
+.paragraf-about-me {
+  font-family: var(--font);
+  font-size: 20px;
+  width: 90%;
+}
+
+.skills {
+  height: 100vh;
+  background-color: var(--color-4);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.body-skills {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.item-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid;
+  border-radius: 10px;
+  aspect-ratio: 1/1;
+  gap: 10px;
+  padding: 10px;
+  background-color: var(--color-5);
+}
+
+.studies {
+  height: 100vh;
+  background-color: var(--color-1);
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.body-studies {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 10px;
+  justify-content: center;
+}
+.card-studies {
+  width: 30%;
+  aspect-ratio: 1/1;
+  background-color: var(--color-4);
+  color: var(--color-2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+.container-studies {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  font-size: 20px;
+}
+.img-studies {
+  border-radius: 5px 5px 0 0;
+}
+.correction-studies {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 90%;
+  justify-content: center;
+  border-radius: 5px 5px 0 0;
+}
+
+.proyects {
+  height: 100vh;
+  background-color: var(--color-4);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 30px;
+}
+.card-proyects {
+  padding: 10px;
+  display: flex;
+  width: 80%;
+  height: 40%;
+}
+.container-proyects {
+  display: flex;
+  width: 50%;
+  text-align: center;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.button-proyects {
+  background-color: var(--color-2);
+  color: var(--color-4);
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  outline: none;
+}
+.button-proyects:hover {
+  background-color: var(--color-4);
+  color: var(--color-2);
+  border: 3px solid var(--color-2);
+}
+
+.footer {
+  background-color: var(--color-1);
+  color: white;
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+}
+.link-footer {
+  color: var(--color-4);
+  text-decoration: none;
+  outline: none;
+}
+
+h3 {
+  font-family: var(--font);
+  font-size: 20px;
+  font-weight: 600;
+}
